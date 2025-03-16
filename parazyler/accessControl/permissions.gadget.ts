@@ -11,6 +11,13 @@ export const permissions: GadgetPermissions = {
   roles: {
     unauthenticated: {
       storageKey: "unauthenticated",
+      models: {
+        speechToText: {
+          actions: {
+            create: true,
+          },
+        },
+      },
     },
   },
 };

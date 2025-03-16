@@ -8,4 +8,9 @@ declare module "react-router" {
 
 type Params = {
   "/": {};
+  "/technology": {};
+  "/mission": {};
+  "/send": {};
+  "/team": {};
+  "/test": {};
 };
